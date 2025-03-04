@@ -183,6 +183,19 @@ export default function SettingsScreen() {
           thumbTintColor="#4CAF50"
         />
       </View>
+
+      <View style={styles.settingItem}>
+        <CustomText style={[styles.settingLabel, styles.boldText, textStyle]}>
+          Weather Time
+        </CustomText>
+        <CustomText style={[styles.settingValue, textStyle]}></CustomText>
+        <CustomText style={[styles.settingValue, textStyle]}>
+          (c) 2025 ABC Solutions Pty Ltd
+        </CustomText>
+        <CustomText style={[styles.settingValue, textStyle]}>
+          Version 1.0
+        </CustomText>
+      </View>
     </View>
   );
 }
